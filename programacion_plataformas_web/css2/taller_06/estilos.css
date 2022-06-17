@@ -1,0 +1,12 @@
+p{
+    background-color: tomato;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+#relativum{
+    background-color: burlywood;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}

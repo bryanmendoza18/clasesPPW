@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    /*filas / columnas */
+    grid-template: repeat(5, 1fr) / auto auto auto ; /*5 filas y 3 columnas*/
+    grid-gap: 10px;
+}
+
+.item{
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid tomato;
+}

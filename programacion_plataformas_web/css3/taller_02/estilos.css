@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    background-color: yellow;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr ; hace 4 columas, lo mismo q el de abajo */
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+}
+
+
+.item{
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid black;
+}

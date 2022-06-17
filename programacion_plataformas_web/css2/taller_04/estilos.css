@@ -1,0 +1,11 @@
+p{
+    background-color: red;
+    padding: 20px;
+}
+
+#absolutum{
+    background-color: burlywood;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}

@@ -1,0 +1,26 @@
+a{
+    display: block;
+    float: left;
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px; 
+    margin: 5px; /* lo que hace es separar los cuadritos*/
+    text-align: center; /*Centra el texto*/
+    background-color: black;
+    color: white;
+
+}
+
+a:hover{
+    background-color: whitesmoke; /*al pasar el mouse sobre los cuadritos cambiar de color*/
+    color: black;
+}
+
+a:active{
+    background-color: yellowgreen; /*al dar click a cada cuadro este se pulsa y colorea*/
+}
+
+a:visited{
+    color: red; /*colorea los cuadritos, representa enlaces que ya has visitado  */
+}
+
