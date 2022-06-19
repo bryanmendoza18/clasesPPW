@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 140px 1fr 80px;
+    grid-template-areas: "header header" "left content" "footer footer";
+    
+    
+}
+
+.item{
+   
+    background-color: orange;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 1px;
+}
+
+.header{
+    grid-area: header;
+    margin-bottom: 10px;
+  
+    
+}
+
+/*seccion de menú*/
+
+.left{
+    grid-area: left;
+    background-color: white;
+    margin-right: 10px;
+    
+}
+
+.menu{
+    display: block;
+    background-color: #e87b31;
+    border: 2px solid #eeb14c;
+    padding: 10px;
+    color: white;
+    width: 230px;
+    margin: 6px;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.menu:hover{
+    background-color: orange;
+}
+
+
+
+.content{
+    display: grid;
+    place-items: center;
+    grid-area: content;
+    background-color: white;
+    place-items: center;
+}
+
+.footer{
+    grid-area: footer;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+/*mapa urbanización*/
+.mapa{
+    
+    display: grid;
+    height: 50vh;
+    width: 100vh;
+    border: 2px solid black;
+    place-items: center;
+    grid-template-columns: 80px 1fr 80px;
+    grid-template-rows: 70px 1fr 70px;
+    grid-template-areas: "izquierda  arriba derecha" "izquierda  centro derecha" "izquierda  abajo derecha";
+
+}
+
+
+
+/*cuadros superiores y centrales*/
+
+.cuadro-superior, .cuadro-central{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.arriba, .izquierda, .centro, .derecho, .abajo{
+    width: 80px;
+    height: 70px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(28, 28, 142);
+    
+
+}
+
+
+/*cuadros laterales izquierdo y derecho*/
+
+.cuadro-lateral-izquierdo, .cuadro-lateral-derecho{
+    display: flex;
+    flex-direction: column;  
+}
+
+
+/*cuadros central vacio*/
+.cuadro-vacio{
+    width: 90px;
+    height: 115px;
+    border: 2px solid black;
+}
+
+/*cuadros inferiores*/
+.cuadro-inferior{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+
+
+}
+
+
+/*garita*/
+.garita{
+    position: absolute;
+    background-color: limegreen;
+    width: 80px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 370px;
+    margin-right: 490px;
+}
+
+h3{
+    position: absolute;
+    margin-top: 300px;
+    margin-right: 490px;
+}
+
+/*grid-areas*/
+.cuadro-superior{
+    grid-area: arriba;
+}
+
+.cuadro-lateral-izquierdo{
+    grid-area: izquierda;
+}
+
+.cuadro-central{
+    grid-area: centro;
+}
+
+.cuadro-lateral-derecho{
+    grid-area: derecha;
+}
+
+.cuadro-inferior{
+    grid-area: abajo;
+    
+
+}
+
+
+
+/*COLORES PARA LOS CUADRITOS*/
+
+.verde {
+    background-color: lime;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.gris {
+    background-color: gray;
+}
+
+
+
+
