@@ -1,0 +1,281 @@
+
+[
+    {
+      "id_residente": 1,
+      "manzana":1,
+      "villa":2,
+      "nombre": "Bryan Mendoza",
+      "cedula": "0954345654",
+      "telefono": "0987168312",
+      "email": "bryanmen1811@gmail.com",
+      "fecha_inicio": "2-julio-2022",
+      "estado":"azul"
+
+      
+    },
+    {
+        "id_residente": 2,
+        "manzana":1,
+        "villa":3,
+        "nombre": "Vicente Caviedes",
+        "cedula": "09876435267",
+        "telefono": "0976453456",
+        "email": "caviedes98@gmail.com",
+        "fecha_inicio": "3-julio-2022",
+        "estado":"verde"
+        
+      },
+      {
+        "id_residente": 3,
+        "manzana":1,
+        "villa":4,
+        "nombre": "Luis Mariño",
+        "cedula": "09876123267",
+        "telefono": "0976453456",
+        "email": "lmarino@hotmail.com",
+        "fecha_inicio": "4-julio-2022",
+        "estado":"amarillo"
+        
+      },
+      {
+        "id_residente": 4,
+        "manzana":2,
+        "villa":1,
+        "nombre": "Acevedo Mejía",
+        "cedula": "09876435234",
+        "telefono": "0976453654",
+        "email": "Acevedo@gmail.com",
+        "fecha_inicio": "8-julio-2022",
+        "estado":"rojo"
+        
+      },
+      {
+        "id_residente": 5,
+        "manzana":2,
+        "villa":5,
+        "nombre": "Juan Terán",
+        "cedula": "09876465456",
+        "telefono": "0123467898",
+        "email": "teranv@gmail.com",
+        "fecha_inicio": "28-julio-2022",
+        "estado":"gris"
+        
+      },
+      {
+        "id_residente": 6,
+        "manzana":2,
+        "villa":6,
+        "nombre": "Michael Ortíz",
+        "cedula": "09565435267",
+        "telefono": "0912345456",
+        "email": "ortiz@gmail.com",
+        "fecha_inicio": "30-julio-2022",
+        "estado":"gris"
+        
+      },
+      {
+        "id_residente": 7,
+        "manzana":1,
+        "villa":3,
+        "nombre": "Juan Guillén",
+        "cedula": "09877654667",
+        "telefono": "0987876556",
+        "email": "jguillen@hotmail.com",
+        "fecha_inicio": "9-julio-2022",
+        "estado":"verde"
+        
+      },
+      {
+        "id_residente": 8,
+        "manzana":1,
+        "villa":4,
+        "nombre": "María Becerra",
+        "cedula": "09812345678",
+        "telefono": "0976090908",
+        "email": "becerra@gmail.com",
+        "fecha_inicio": "11-julio-2022",
+        "estado":"amarillo"
+        
+      },
+      {
+        "id_residente": 9,
+        "manzana":2,
+        "villa":1,
+        "nombre": "Dana Cepeda",
+        "cedula": "09812345678",
+        "telefono": "097649876545",
+        "email": "dana7v@gmail.com",
+        "fecha_inicio": "18-julio-2022",
+        "estado":"rojo"
+        
+      },
+      {
+        "id_residente": 10,
+        "manzana":2,
+        "villa":5,
+        "nombre": "Alejo Guerrero",
+        "cedula": "09876435212",
+        "telefono": "0976453787",
+        "email": "ajejo@gmail.com",
+        "fecha_inicio": "23-julio-2022",
+        "estado":"gris"
+        
+      },
+      {
+        "id_residente": 11,
+        "manzana":2,
+        "villa":6,
+        "nombre": "Vicente Caviedes",
+        "cedula": "09876435267",
+        "telefono": "0976453456",
+        "email": "caviedesv@gmail.com",
+        "fecha_inicio": "3-julio-2022",
+        "estado":"gris"
+        
+      },
+      {
+        "id_residente": 12,
+        "manzana":1,
+        "villa":4,
+        "nombre": "Aldrete -argas",
+        "cedula": "09876436543",
+        "telefono": "0976453656",
+        "email": "Aldrete-argas@gmail.com",
+        "fecha_inicio": "17-julio-2022",
+        "estado":"amarillo"
+        
+      },
+      {
+        "id_residente": 13,
+        "manzana":2,
+        "villa":1,
+        "nombre": "Bryan Guzman",
+        "cedula": "0954345600",
+        "telefono": "0987168300",
+        "email": "bryanmenguz1811@gmail.com",
+        "fecha_inicio": "25-julio-2022",
+        "estado":"rojo"
+        
+      },
+      {
+          "id_residente": 14,
+          "manzana":2,
+          "villa":5,
+          "nombre": "Vicente Carrion",
+          "cedula": "09800995267",
+          "telefono": "0987883456",
+          "email": "vcarrion@gmail.com",
+          "fecha_inicio": "14-julio-2022",
+          "estado":"gris"
+          
+        },
+        {
+          "id_residente": 15,
+          "manzana":2,
+          "villa":6,
+          "nombre": "Hernán Galindez",
+          "cedula": "09876431212",
+          "telefono": "0976451111",
+          "email": "hernan@gmail.com",
+          "fecha_inicio": "8-julio-2022",
+          "estado":"gris"
+          
+        },
+        {
+          "id_residente": 16,
+          "manzana":1,
+          "villa":3,
+          "nombre": "Lionel Gutierrez",
+          "cedula": "09876430876",
+          "telefono": "0976450099",
+          "email": "gutierrez97@gmail.com",
+          "fecha_inicio": "11-julio-2022",
+          "estado":"verde"
+          
+        },
+        {
+          "id_residente": 17,
+          "manzana":1,
+          "villa":4,
+          "nombre": "Cristiano Cun",
+          "cedula": "09870987890",
+          "telefono": "0970098767",
+          "email": "ronaldov@gmail.com",
+          "fecha_inicio": "3-agosto-2022",
+          "estado":"amarillo"
+          
+        },
+        {
+          "id_residente": 18,
+          "manzana":2,
+          "villa":1,
+          "nombre": "Damian Vidal",
+          "cedula": "09876412121",
+          "telefono": "0976411112",
+          "email": "damienv@gmail.com",
+          "fecha_inicio": "5-agosto-2022",
+          "estado":"rojo"
+          
+        },
+        {
+          "id_residente": 19,
+          "manzana":2,
+          "villa":5,
+          "nombre": "Kante Mena",
+          "cedula": "09876400009",
+          "telefono": "0976450098",
+          "email": "kantemena7@gmail.com",
+          "fecha_inicio": "31-agosto-2022",
+          "estado":"gris"
+          
+        },
+        {
+          "id_residente": 20,
+          "manzana":2,
+          "villa":6,
+          "nombre": "Felipe Brazuca",
+          "cedula": "09876400657",
+          "telefono": "0971111356",
+          "email": "brazuca@gmail.com",
+          "fecha_inicio": "24-agosto-2022",
+          "estado":"gris"
+          
+        },
+        {
+          "id_residente": 21,
+          "manzana":2,
+          "villa":5,
+          "nombre": "Felipe Cedeño",
+          "cedula": "09873335267",
+          "telefono": "0976223456",
+          "email": "fCedeño343@gmail.com",
+          "fecha_inicio": "30-Septiembre-2022",
+          "estado":"gris"
+          
+        },
+        {
+          "id_residente": 22,
+          "manzana":2,
+          "villa":6,
+          "nombre": "Nayeli Gimenez",
+          "cedula": "09876400917",
+          "telefono": "0999893456",
+          "email": "nayelig77@gmail.com",
+          "fecha_inicio": "3-septiembre-2022",
+          "estado":"gris"
+          
+        },
+        {
+          "id_residente": 23,
+          "manzana":1,
+          "villa":2,
+          "nombre": "Guillermo Plúas",
+          "cedula": "09812345267",
+          "telefono": "0971123456",
+          "email": "guillermopluas34@gmail.com",
+          "fecha_inicio": "3-julio-2022",
+          "estado":"verde"
+          
+        }
+      
+  ]

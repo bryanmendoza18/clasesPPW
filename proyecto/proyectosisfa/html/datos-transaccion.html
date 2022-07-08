@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datos transaccion</title>
+    <script type="text/javascript">
+        function obtenerdatos()
+        {
+            var tramite = document.getElementById('tramite').value;
+            var banco = document.getElementById('banco').value;
+            var fecha = document.getElementById('fecha').value;
+            var pago = document.getElementById('pago').value;
+    
+            document.registro.tramiteobtenido.value = tramite;
+            document.registro.bancoobtenida.value = banco;
+            document.registro.fechaobtenido.value = fecha;
+            document.registro.pagoobtenida.value = pago;
+    
+        }
+    </script>
+    <link rel="stylesheet" href="../css/datos-transaccion.css">
+</head>
+<body>
+    <header>
+        <button class="atras"> <a  href="/html/alicuota.html">Volver atrás</a> </button> 
+    </header>
+
+
+    <section class="container">
+        <form>
+            <h1>Datos de la transacción</h1>
+            
+
+            <ul>
+
+                <li class="formulario-fila">
+                    <label for="tramite">Número de trámite:</label>
+                    <input type="text" name="tramite" id="tramite">
+                </li> 
+                <br>
+
+                <li class="formulario-fila">
+                    <label for="banco">Banco:</label>
+                    <input type="text" name="banco" id="banco">
+                </li>
+                
+                <br>
+                <li class="formulario-fila">
+                    <label for="fecha">Fecha de pago:</label>
+                    <input type="text" name="fecha" id="fecha">
+                </li>
+                <br>
+
+                <li class="formulario-fila">
+                    <label for="pago">Valor del pago:</label>
+                    <input type="text" name="pago" id="pago">
+                </li>
+                <br>
+                <!--subir comprobante-->
+                <li class="formulario-fila">
+                    <label for="comprobante">Subir comprobante</label>
+
+                <!--prueba-->   
+                <div class="form-group" align="center">
+                    <label for="file-input">
+                      <!-- <img class="nube-negra" type="file" src="../../imagenes/nube-negra.png"/> -->
+                    </label>
+                
+                    <input id="file-input" type="file" />
+                  </div>
+                
+                    
+                </li>
+                <br>
+
+                <!--bonton autentificar y cerrar-->
+                <li class="formulario-fila">
+                    <input type="button" name="btn1" value="Enviar" onclick="obtenerdatos()"></td>
+                    <button> <a href="/html/alicuota.html">Cerrar</a></button>
+                </li>
+            </ul>
+        </form name="registro" >
+        <br><br>
+        <br><br>
+        <table border="1">
+            <tr>
+                <td>Número de trámite:</td><td><input type="text" name="tramiteobtenido" id="tramiteobtenido" ></td>
+            </tr>	
+            <tr>
+                <td>Banco:</td><td><input type="text" name="bancoobtenida" id="bancoobtenida" ></td>
+            </tr>
+            <tr>
+                <td>Fecha de pago:</td><td><input type="text" name="fechaobtenido" id="fechaobtenido" ></td>
+            </tr>	
+            <tr>
+                <td>Valor de pago:</td><td><input type="text" name="pagoobtenida" id="pagoobtenida" ></td>
+            </tr>
+        </table>
+
+        
+
+    
+    </section>
+   
+</body>
+</html>

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 290px;
+    grid-template-rows: 140px 1fr 60px;
+    height: 100vh;
+    grid-template-areas: "header header" "content content" "footer footer";
+    
+}
+
+.item {
+    
+    padding: 10px;
+   
+}
+
+.header{
+    background-color: white;
+    padding: 20px;
+    height: 40px;
+    grid-area: header;
+    cursor: pointer;
+    
+
+}
+
+.content{
+    
+    
+    margin-bottom: 10px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgba(0, 0, 0, 0.477);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: verdana;
+    cursor: pointer;
+
+
+
+}
+
+
+.logo{
+    width: 280px;
+    height: 60px;
+}
+
+
+
+
+
+
+body{
+    margin: 0;
+    background-image: url(../../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+}
+
+
+
+
+
+.iniciar-registrar{
+    
+    background-color: #3A57FA;
+    border: 2px solid #0629f1;;
+    text-align: center; 
+    padding: 5px;
+    color: white;
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    left: 1300px;
+    top: 20px;
+    list-style: none;
+    font-family: "europa", sans-serif;
+    float: right;
+    border-radius: 290486px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    
+}
+
+
+.iniciar-registrar:hover{
+    background-color: #2c48e9;
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+
+p{
+   
+    display: inline-block;
+    font-family: Oswald, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+    
+}  
+.top{
+    margin-top: 150px;
+    margin-left: 140px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+

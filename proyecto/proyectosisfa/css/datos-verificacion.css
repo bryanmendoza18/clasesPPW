@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+
+
+
+
+h1{
+    font-size: verdana;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.container{
+    background-color: rgba(11, 96, 130, 0.675);
+    margin: 60px auto 100px;
+    padding: 10px;
+    text-align: center;
+    width: 550px;
+    height: 80vh;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 40px;
+    
+    
+    
+
+}
+
+.formulario-fila{
+    list-style: none;
+    margin-top: 20px;
+}
+
+label{
+    
+    height: 40px;
+   
+    float: left;
+    font-size: 20px;
+    color: white;
+    
+
+}
+
+input{
+   
+    
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    float: right;
+}
+
+button{
+    width: 140px;
+    height: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    
+    
+}
+
+button:hover{
+    background-color: orange;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.atras{
+    background-color: rgb(58, 108, 233);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    float: right;
+    padding: 6px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+
+body{
+    margin: 0;
+    background-image: url(../../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+.nube{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 380px;
+    left: 670px;
+    background-color: white;
+    padding: 10px;
+   
+}
+
+
+
+
+.manzana2{
+    width: 100px;
+    float: left;
+    margin-left: 100px;
+    
+}
+
+
+
+.villa2{
+    width: 100px;
+   
+    float: right;
+}
+
+.villa1{
+    
+    margin-left: 30px;
+    
+}
+
+
+.contenedor-imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+    
+}
+
+.imagenes{
+    width: 60px;
+    height: 50px;
+    border-radius: 30px;
+    
+}
+
+
+header{
+    background-color: white;
+    padding: 20px;
+    height: 30px;
+  
+}
+
+
+footer{
+    background-color: rgba(249, 240, 240, 0.489);
+    color: black;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+    
+    

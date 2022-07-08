@@ -1,0 +1,36 @@
+* {
+    margin: 0 auto;
+}
+
+.container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "header" "body";
+    height: auto;
+    width: 70vh;
+}
+
+.header {
+    border: 2px solid black;
+    grid-area: header;
+    background-color: lightskyblue;
+    width: 50vh;
+}
+
+.body {
+    grid-area: body;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+.leyenda {
+    text-align: center;
+}

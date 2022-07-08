@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>leccion</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/factura.css" />
+    <script type="text/javascript" src="/js/factura.js"></script>
+</head>
+
+<body>
+    <h1>Facturación</h1>
+    <button class="menu-principal"> <a  href="/html/menu-principal.html">Volver al menú principal</a> </button>
+    <div class="top">
+        <!-- <label><strong>Buscar:</strong></label>  -->
+        
+    
+            <!-- <input placeholder="Buscar" type="text" id="buscar" onkeyup="doSearch()" /><br/> -->
+            <br/> <strong>Nombre-Apellido:</strong>  <input placeholder="Ingrese nombre y apellido del cliente" type="text" id="nombre"><br/>
+            <br/><strong>Cantidad:</strong>  <input placeholder="Ingrese 💰 cantidad " type="text" id="descripcion"><br/>
+            <br/>
+            <br/>
+            <input type="button" class="add" onclick="add_row();" value="+"><br/>
+            <br/>
+        </div>
+    <section class="container">
+
+        <form id="form" style="text-align:center">
+            
+            <table id="data_table">
+                <thead>
+                    <tr>
+                        <th>Nombre-Apellido</th>
+                        <th>Cantidad</th>
+                        <th>⚙</th>
+                    </tr>
+                </thead>
+
+            </table>
+        </form>
+        </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+
+.casa-logo{
+    width: 250px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+   
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    height: 35px;
+  
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+p{
+    color: white;
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.container{
+    background-color: rgba(34, 172, 193, 0.267);
+    padding: 25px;
+    width: 700px;
+    height: 50vh;
+    margin: 60px auto 150px ;
+}
+
+
+.contenedor-imagen{
+    background-color: white;
+    border-radius: 50%;
+    
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin: 60px auto 500px;
+    
+}
+
+.imagen-usuario{
+
+   
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+
+.imagen-administrador{
+
+  
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+body{
+    margin: 0;
+    background-image: url(../../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+footer{
+    background-color: rgba(249, 240, 240, 0.489);
+    color: black;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+}

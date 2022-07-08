@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>   
+</head>
+<body>
+    
+    <section class="container">
+        <div class="item header">
+            <button class="menu-principal"> <a  href="/html/menu-principal.html">Volver al menú principal</a> </button>
+        </div>
+        <div class="item footer"></div>
+        <div class="item left">
+            <button onclick="normal()">Residentes</button>
+            <button onclick="sinDeudas()">Residentes sin deudas</button>
+            <button onclick="conDeudas()">Residentes con deudas</button>
+            <button onclick="noHabitado()">Residencias sin propietarios</button>
+            <button onclick="nueva()">Archivo Json</button>
+        </div>
+        <section class="item body">
+            <div class="mapa">
+                <!-- top -->
+               <div class="top">
+                   <div class="arriba amarillo">1</div>
+                   <div class="arriba verde">2</div>
+                   <div class="arriba amarillo">3</div>
+                   <div class="arriba verde">4</div>
+                   <div class="arriba verde">5</div>
+                   <div class="arriba verde">6</div>
+               </div>
+
+               <!-- left -->
+               <div class="left1">
+                    <div class="izquierda verde">1</div>                  
+                    <div class="izquierda verde">2</div>
+                    <div class="izquierda amarillo">3</div>
+                    <div class="izquierda verde">4</div>
+               </div>
+
+               <!-- right -->
+               <div class="right1">
+                    <div class="derecha verde">1</div>                  
+                    <div class="derecha gris" >2</div>
+                    <div class="derecha verde">3</div>
+                    <div class="derecha verde">4</div>
+               </div>
+
+               <!-- cuadros centrales -->
+               <div class="middle">
+                   <div class="empty"></div>
+                    <div class="centro rojo">1</div>                  
+                    <div class="centro verde">2</div>
+                    <div class="centro verde">3</div>
+                    <div class="centro verde">4</div>
+                </div>
+               
+               <!-- cuadros de abajo -->
+               <div class="bottom1">
+                <div class="garita"></div>
+                <div class="abajo gris">1</div>                  
+                <div class="abajo verde">2</div>
+                <div class="abajo amarillo">3</div>
+                <div class="abajo amarillo">4</div>
+                <div class="abajo rojo">5</div>
+               </div>
+        </div>
+    </section>
+</body>
+</html>

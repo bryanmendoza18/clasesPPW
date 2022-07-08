@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+}
+/*estructura*/
+.container{   
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 150px 1fr 50px;
+    grid-template-areas: "header header" "left body" 
+    "footer footer";
+    height: 100vh;
+}
+
+.header{
+    grid-area: header;
+    margin-bottom: 2px;
+    background-color: orange;
+}
+
+.footer{
+    grid-area: footer;
+    margin-top: 2px;
+    background-color: orange;
+}
+
+.left{
+    grid-area: left;
+    margin-right: 2px;
+}
+
+.body{
+    grid-area: body;
+    display: grid;
+    place-items: center;
+}
+
+.item{
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+/*enlaces*/
+button{ 
+    border: 1px solid yellow;
+    background-color: peru;
+    height: 40px;
+    width: 180px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/*centro*/
+
+.mapa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    " left1 top right1" 
+    "left1 middle right1" 
+    " left1 bottom1 right1";
+    width: 70vh;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+/*cuadros de arriba*/
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    grid-area: top;
+}
+
+.arriba{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*cuadros de la izquierda*/
+.left1{
+    grid-area: left1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+.izquierda{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*cuadros derecha*/
+.right1{
+    grid-area: right1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.derecha{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*en blanco*/
+.empty{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+/*cuadros centro*/
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    grid-area: middle;
+}
+
+.centro{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*cuadros abajo*/
+.bottom1{
+    grid-area: bottom1;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    margin-left: 60px;
+    margin-top: 90px;
+}
+
+.abajo{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*garita*/
+.garita {
+    background-color: green;
+    border: 1px solid black;
+    width: 85px;
+    height: 40px;
+    margin-right: 380px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.verde{
+    background-color: rgb(51, 255, 0);
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.gris{
+    background-color: gray;
+}
+
+/*volver al menu*/
+
+.menu-principal{
+    background-color: rgb(58, 108, 233);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    float: right;
+    padding: 5px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu-principal:hover{
+    background-color: rgba(46, 46, 197, 0.915);
+}

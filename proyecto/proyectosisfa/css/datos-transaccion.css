@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+
+
+
+h1{
+    font-size: verdana;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.atras{
+    background-color: rgb(58, 108, 233);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    float: right;
+    padding: 6px;
+    margin-right: 50px;
+}
+
+
+.container{
+    background-color: rgba(11, 96, 130, 0.675);
+    margin: 60px auto 100px;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    height: 70vh;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 40px;
+    
+    
+    
+
+}
+
+table{
+    
+    width: 500px;
+    color: rgba(11, 96, 130, 0.675);
+    border: none;
+    
+}
+
+td{
+    color: white;
+    font-size: 20px;
+    border: none;
+    
+    
+}
+
+
+
+
+input{
+   
+    
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    
+}
+
+button{
+    width: 140px;
+    height: 30px;
+    
+    font-size: 15px;
+    
+    
+}
+
+
+
+body{
+    margin: 0;
+    background-image: url(../../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+
+
+
+
+
+
